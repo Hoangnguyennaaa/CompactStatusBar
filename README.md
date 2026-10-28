@@ -21,9 +21,12 @@
 ## 📸 Hình ảnh thực tế
 
 <p align="center">
-  <img src="assets/demo1.png" alt="Demo màn hình chính" width="280"/>
+  <img src="assets/demo1.png" alt="Giao diện Cài đặt Tweak" width="280"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/demo2.png" alt="Demo Control Center" width="280"/>
+  <img src="assets/demo2.png" alt="Hiển thị trong Control Center" width="280"/>
+</p>
+<p align="center">
+  <em>Hình 1: Giao diện Cài đặt Tweak & Trạng thái | Hình 2: Đồng bộ trong Control Center</em>
 </p>
 
 ---
@@ -57,7 +60,7 @@
 1. Tải file `CompactStatusBar_rootless.deb` từ mục [Releases](https://github.com/Hoangnguyennaaa/CompactStatusBar/releases).
 2. Mở file bằng **Sileo** (hoặc Zebra / Filza) và bấm **Cài đặt (Get / Install)**.
 3. **Respring** lại máy để kích hoạt tweak.
-4. Mở **Cài đặt (Settings)** -> chọn **CompactStatusBar** để bật và tùy chỉnh các chế độ.
+4. Vào **Cài đặt (Settings)** -> chọn **CompactStatusBar** để bật và tùy chỉnh các chế độ.
 
 ---
 
@@ -84,9 +87,9 @@
 Nếu bạn thấy tweak hữu ích, bạn có thể ủng hộ tác giả một ly cà phê qua mã QR dưới đây:
 
 <p align="center">
-  <img src="assets/donate_qr.png" alt="Mã QR Ủng hộ" width="220"/>
+  <img src="assets/donate_qr.png" alt="Mã QR Ủng hộ MoMo / VietQR" width="240"/>
   <br>
-  <em>Cảm ơn sự ủng hộ của bạn! ❤️</em>
+  <em>Ủng hộ tác giả qua MoMo / VietQR (NGUYEN THE HOANG) ❤️</em>
 </p>
 
 ---
