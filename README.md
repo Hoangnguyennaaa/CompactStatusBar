@@ -3,7 +3,7 @@
 [![Build CompactStatusBar Tweak DEB](https://github.com/Hoangnguyennaaa/CompactStatusBar/actions/workflows/build_deb.yml/badge.svg)](https://github.com/Hoangnguyennaaa/CompactStatusBar/actions/workflows/build_deb.yml)
 [![Build CompactStatusBar IPA](https://github.com/Hoangnguyennaaa/CompactStatusBar/actions/workflows/build_ipa.yml/badge.svg)](https://github.com/Hoangnguyennaaa/CompactStatusBar/actions/workflows/build_ipa.yml)
 [![Platform](https://img.shields.io/badge/Platform-iOS%2015.0%2B-blue.svg)](https://github.com/Hoangnguyennaaa/CompactStatusBar)
-[![Jailbreak](https://img.shields.io/badge/Jailbreak-Rootless%20%7C%20Rootful%20%7C%20TrollStore-success.svg)](https://github.com/Hoangnguyennaaa/CompactStatusBar)
+[![Jailbreak](https://img.shields.io/badge/Jailbreak-Dopamine%20%7C%20Palera1n%20%7C%20Bootstrap-success.svg)](https://github.com/Hoangnguyennaaa/CompactStatusBar)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 
 **CompactStatusBar** là tweak thanh trạng thái (Status Bar) tối giản, hiện đại và tinh tế dành cho iOS. Dự án tích hợp **Pin (Battery)**, **Sóng di động (Cellular)** và **Wi-Fi / Mạng (Network)** vào một biểu tượng đo tròn 3-trong-1 (Circular 3-in-1 Gauge) duy nhất, loại bỏ hoàn toàn sự rườm rà trên thanh trạng thái truyền thống của Apple.
@@ -98,25 +98,27 @@ CompactStatusBar/
 
 ---
 
-## 🚀 Cài đặt (Installation)
+## 🚀 Hướng dẫn Cài đặt (Installation)
 
-### Cách 1: Cài đặt bản Tweak (.deb) - Dành cho máy Jailbreak
+### ⚠️ Lưu ý quan trọng về TrollStore vs Jailbreak:
+* **Để thay thế thanh trạng thái toàn hệ thống 24/7** (ở Màn hình chính, Màn hình khóa, Control Center và bên trong tất cả ứng dụng khác như Safari, TikTok, Facebook): **Bắt buộc phải cài bản Tweak `.deb` trên máy đã Jailbreak**.
+* **Bản App `.ipa` qua TrollStore**: Chỉ là bản ứng dụng giao diện độc lập (Overlay demo). iOS không cho phép ứng dụng thông thường đè lên màn hình hệ thống khi đã thoát ra ngoài màn hình chính.
+
+---
+
+### Hướng dẫn cài đặt bản Tweak (.deb) - Khuyên dùng 100%:
 1. Tải file `CompactStatusBar_rootless.deb` từ mục [Releases](https://github.com/Hoangnguyennaaa/CompactStatusBar/releases) hoặc tab **Actions** (Artifacts).
 2. Mở file bằng trình quản lý gói của bạn:
-   * **Sileo**
-   * **Zebra**
-   * Hoặc cài qua terminal:
+   * **Sileo** (chọn *Mở trong Sileo* -> Nhấn *Get* -> *Install*)
+   * **Zebra** hoặc **Filza**
+   * Hoặc cài đặt thủ công qua Terminal:
      ```bash
      dpkg -i CompactStatusBar_rootless.deb
      ```
-3. Khởi động lại SpringBoard (Respring) để kích hoạt tweak.
+3. Khởi động lại SpringBoard (**Respring**) để tweak có hiệu lực ngay lập tức.
+4. Mở **Cài đặt (Settings)** -> kéo xuống chọn **CompactStatusBar** để chọn kiểu % Pin (khuyên dùng *Đỉnh vòm - Top Crown*) và tùy biến theo sở thích.
 
-> **Tương thích:** Dopamine, Palera1n, Bootstrap/Serotonin, XinaA15, unc0ver (iOS 15.0 - 18.x).
-
-### Cách 2: Cài đặt bản App (.ipa) - Dành cho TrollStore / Sideload
-1. Tải file `CompactStatusBar.ipa` từ mục [Releases](https://github.com/Hoangnguyennaaa/CompactStatusBar/releases).
-2. Mở bằng **TrollStore** và nhấn **Install**.
-3. Cấp quyền cần thiết và bật Overlay để tận hưởng icon pin nổi chuẩn xác.
+> **Môi trường Jailbreak tương thích:** Dopamine, Palera1n, Bootstrap + Serotonin, XinaA15 (iOS 15.0 - 18.x).
 
 ---
 
