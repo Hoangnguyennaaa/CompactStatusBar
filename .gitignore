@@ -1,0 +1,18 @@
+# Build outputs
+*.deb
+*.ipa
+*.dylib
+*.log
+pkg_root/
+Payload/
+CompactStatusBar.app/
+CompactStatusBar_bin
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.vscode/
+.idea/
