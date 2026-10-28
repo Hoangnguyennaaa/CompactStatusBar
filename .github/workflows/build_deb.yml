@@ -55,7 +55,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CompactStatusBar-rootless-deb
-          path: "**/*.deb"
+          path: CompactStatusBar_rootless.deb
           if-no-files-found: error
 
       - name: Create or Update GitHub Release
@@ -78,6 +78,6 @@ jobs:
             #### 📦 Tải về cài đặt:
             Tải file **`CompactStatusBar_rootless.deb`** đính kèm bên dưới và mở cài đặt qua **Sileo**, **Zebra** hoặc **Filza**.
           files: |
-            **/*.deb
+            CompactStatusBar_rootless.deb
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
