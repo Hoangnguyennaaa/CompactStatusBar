@@ -57,3 +57,27 @@ jobs:
           name: CompactStatusBar-rootless-deb
           path: "**/*.deb"
           if-no-files-found: error
+
+      - name: Create or Update GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: v1.4.8
+          name: "CompactStatusBar v1.4.8 (Rootless)"
+          body: |
+            ### ⚡ CompactStatusBar v1.4.8 - Bản phát hành chính thức
+
+            #### 🌟 Điểm mới trong v1.4.8:
+            * **Khớp nối hình học 100%:** Bán kính 9.0pt đồng nhất, loại bỏ hoàn toàn khe hở đứt đoạn giữa vòng cung pin (140° - 400°) và các chấm sóng (bước góc đều 20°).
+            * **Đỉnh vương miện (Top Crown):** Hiển thị số % pin lồng tinh tế tại đỉnh 12 giờ của gauge.
+            * **Màu sắc động Apple:** Xanh Apple System Green (`#34C759`), LPM vàng (`#FFCC00`), Pin yếu đỏ (`#FF3B30`).
+            * **Tâm Gauge đa năng:** Tự động nhận diện Wi-Fi (quạt đa mức sóng) hoặc mạng di động (`5G`/`4G`/`LTE`) hoặc tia sét sạc.
+            * **Đồng bộ Control Center:** Cố định và đồng bộ vị trí chuẩn xác với Trung tâm điều khiển.
+
+            ---
+            #### 📦 Tải về cài đặt:
+            Tải file **`CompactStatusBar_rootless.deb`** đính kèm bên dưới và mở cài đặt qua **Sileo**, **Zebra** hoặc **Filza**.
+          files: |
+            **/*.deb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
