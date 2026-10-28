@@ -63,20 +63,39 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           tag_name: v1.4.8
-          name: "CompactStatusBar v1.4.8 (Rootless)"
+          name: "CompactStatusBar v1.4.8 - Bản phát hành công khai đầu tiên"
           body: |
-            ### ⚡ CompactStatusBar v1.4.8 - Bản phát hành chính thức
+            ### 🎉 CompactStatusBar v1.4.8 - Bản phát hành công khai đầu tiên (First Public Release)
 
-            #### 🌟 Điểm mới trong v1.4.8:
-            * **Khớp nối hình học 100%:** Bán kính 9.0pt đồng nhất, loại bỏ hoàn toàn khe hở đứt đoạn giữa vòng cung pin (140° - 400°) và các chấm sóng (bước góc đều 20°).
-            * **Đỉnh vương miện (Top Crown):** Hiển thị số % pin lồng tinh tế tại đỉnh 12 giờ của gauge.
-            * **Màu sắc động Apple:** Xanh Apple System Green (`#34C759`), LPM vàng (`#FFCC00`), Pin yếu đỏ (`#FF3B30`).
-            * **Tâm Gauge đa năng:** Tự động nhận diện Wi-Fi (quạt đa mức sóng) hoặc mạng di động (`5G`/`4G`/`LTE`) hoặc tia sét sạc.
-            * **Đồng bộ Control Center:** Cố định và đồng bộ vị trí chuẩn xác với Trung tâm điều khiển.
+            Chào mừng bạn đến với bản phát hành chính thức đầu tiên của **CompactStatusBar**! 
+
+            **CompactStatusBar** là tweak tinh chỉnh thanh trạng thái (Status Bar) dành cho thiết bị iPhone/iPad Jailbreak (Rootless). Tweak gom gọn **Pin (Battery)**, **Sóng di động (Cellular)** và **Wi-Fi / 4G / 5G** vào một biểu tượng tròn 3-trong-1 duy nhất, mang lại giao diện tinh gọn, hiện đại và đồng bộ toàn hệ thống.
 
             ---
-            #### 📦 Tải về cài đặt:
-            Tải file **`CompactStatusBar_rootless.deb`** đính kèm bên dưới và mở cài đặt qua **Sileo**, **Zebra** hoặc **Filza**.
+
+            ### ✨ Tính năng nổi bật:
+            * 🔋 **Vòng tròn Pin 3-trong-1:** Hiển thị mức pin mượt mà với số % đặt tại đỉnh vương miện (Top Crown), tự động đổi màu theo trạng thái (Xanh lá khi đầy/bình thường, Vàng khi bật Tiết kiệm pin LPM, Đỏ khi pin yếu, hiệu ứng nhịp thở phát sáng khi cắm sạc).
+            * 📶 **Chấm sóng di động uốn cong:** 4 chấm báo sóng bo tròn theo đáy vòng tròn, nhận diện chính xác cường độ sóng thực tế.
+            * 🌐 **Tâm icon đa năng:** Tự động hiển thị cột sóng Wi-Fi hoặc thế hệ mạng di động (`5G`, `4G`, `LTE`) khi không kết nối Wi-Fi.
+            * 🎛️ **Đồng bộ Control Center:** Tự động căn chỉnh vị trí icon trong Trung tâm điều khiển khớp chuẩn theo thanh trạng thái, không bị lệch hay nhảy vị trí.
+            * ✋ **Thao tác cử chỉ tiện lợi:**
+              * **Chạm 1 lần:** Chuyển đổi nhanh giữa % Pin và % RAM.
+              * **Chạm 2 lần:** Mở bảng hiển thị thông số chi tiết (HUD).
+              * **Nhấn giữ (0.5s):** Bật chế độ kéo thả để di chuyển vị trí icon tự do trên màn hình.
+
+            ---
+
+            ### 📱 Khả năng tương thích:
+            * **Hệ điều hành:** iOS 15.0 – 16.x (và các phiên bản hỗ trợ môi trường Rootless).
+            * **Công cụ Jailbreak:** Dopamine 2.x, Palera1n (Rootless), Bootstrap + Serotonin.
+
+            ---
+
+            ### 📦 Hướng dẫn cài đặt:
+            1. Tải file **`CompactStatusBar_rootless.deb`** đính kèm bên dưới.
+            2. Mở file bằng **Sileo**, **Zebra** hoặc **Filza** và nhấn **Cài đặt (Get / Install)**.
+            3. Khởi động lại SpringBoard (**Respring**) để áp dụng tweak.
+            4. Vào **Cài đặt (Settings)** -> kéo xuống chọn mục **CompactStatusBar** để bật và tùy biến theo ý thích.
           files: |
             CompactStatusBar_rootless.deb
         env:
